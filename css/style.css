@@ -21,3 +21,39 @@
     border: 1px solid rgb(255, 255, 255);
     color: cornflowerblue;
 }
+.inside-no-text{
+    text-align: center;
+    background-color: rgb(157, 91, 219);
+    color: rgb(157, 91, 219);
+    padding: 5px 5px;
+    border: 1px solid cornflowerblue;
+}
+.start{
+    justify-content: flex-start;
+}
+.center{
+    justify-content: center;
+}
+.end{
+    justify-content: flex-end;
+}
+.top{
+    align-items: flex-start;
+}
+.middle{
+    align-items: center;
+}
+.bottom{
+    align-items: flex-end;
+}
+.big-box{
+    border: 1px solid white;
+    height: 80px;
+    background-color: cornflowerblue;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
